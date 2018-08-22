@@ -7,7 +7,7 @@ import configparser
 """
 Define some arguments (search words, database, collection and language) 
 to run the script from console.
-Usage example: python tweet2mongo_param.py -w#python -w#azure -w#aws  -d development -c cloudcomputing -l en
+Usage example: python tweets2mongo.py -w#python -w#azure -w#aws  -d development -c cloudcomputing -l en
 """
 parser = argparse.ArgumentParser()
 parser.add_argument('-d','--database', help='<Required> Name of MongoDB Database (i.e. -d twitterdb)', required=True)
